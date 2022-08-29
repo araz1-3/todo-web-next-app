@@ -3,7 +3,7 @@ import React from 'react';
 import { useSession , signIn } from "next-auth/react"
 
 
-const profile = () => {
+const Profile = () => {
     const { data:session , status } = useSession({
         required: true,
         onUnauthenticated() {
@@ -27,4 +27,4 @@ const profile = () => {
     );
 };
 
-export default profile;
+export default Profile;
