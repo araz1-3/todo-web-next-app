@@ -24,7 +24,7 @@ const AddNewTodo = ({ onAdd }) => {
   return (
     <div>
       <Button
-        className="w-full py-2 px-5 hover:bg-blue-600 text-white bg-blue-500 rounded-lg transition-all duration-300 ease-in-out"
+        className="w-full py-2 px-5 animate-bounce hover:bg-blue-700 text-white bg-blue-600 rounded-lg transition-all duration-300 ease-in-out"
         variant="outlined"
         onClick={handleClickOpen}
         type="submit"

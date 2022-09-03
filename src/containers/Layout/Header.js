@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Example from "./moods/mood";
+import Theme from "./moods/Theme";
 import { useRouter } from "next/router";
 import { useSession, signIn, signOut } from "next-auth/react";
 
@@ -54,7 +54,7 @@ const Header = () => {
             </Link>
           )}
         </ul>
-        <Example />
+        <Theme />
       </nav>
     </header>
   );

@@ -51,7 +51,7 @@ const EditPage = ({ todo }) => {
             name="title"
             placeholder="todo title ..."
             id="todo-title"
-            className="border px-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-blue-400 focus:border-none w-full block transition duration-300 ease-out"
+            className="border border-slate-500 px-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-blue-400 focus:border-none w-full block transition duration-300 ease-out"
             type="text"
             value={formData.title}
             onChange={changeHandler}
@@ -67,12 +67,12 @@ const EditPage = ({ todo }) => {
             onChange={changeHandler}
             name="description"
             id="todo-description"
-            className="border px-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-blue-400 focus:border-none w-full block transition duration-300 ease-out"
+            className="border border-slate-500 px-3 py-2 rounded-lg outline-none focus:ring-2 focus:ring-blue-400 focus:border-none w-full block transition duration-300 ease-out"
           ></textarea>
         </div>
-        <div className="mb-8">
+        <div className="mb-8 flex items-center">
           <input
-            className="rounded mr-2"
+            className="rounded-lg mr-2 w-4 h-4 "
             type="checkbox"
             name="checked"
             id="checked"

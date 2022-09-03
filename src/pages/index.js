@@ -67,7 +67,7 @@ export default function Home({ todos }) {
 
   return (
     <Layout>
-      <div className="container p-2 xl:max-w-screen-xl mx-auto">
+      <div className="container dark:bg-slate-900 p-2 xl:max-w-screen-xl mx-auto">
         <section className="flex flex-col md:flex-row items-start gap-x-8 gap-y-8 md:justify-center">
           <AddNewTodo onAdd={addTodo}/>
           <TodoList data={data} open={open} handleClickOpen={handleClickOpen} setOpen={setOpen} onDelete={deleteHandler} onComplete={completeHandler} />
